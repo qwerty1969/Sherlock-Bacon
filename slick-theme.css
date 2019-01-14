@@ -41,6 +41,21 @@
     outline: none;
     background: transparent;
 }
+
+@media screen and (max-width:610px) and (min-width:500px){
+    .slick-prev,
+    .slick-next{
+        position: absolute;
+        top: 30%;
+    }  
+}
+@media screen and (max-width:500px){
+    .slick-prev,
+    .slick-next{
+        position: absolute;
+        top: 30%;
+    }  
+}
 .slick-prev:hover,
 .slick-prev:focus,
 .slick-next:hover,
@@ -71,15 +86,59 @@
     line-height: 1;
 
     opacity: .75;
-    color: white;
+    color: black;
 
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
 
+
+
 .slick-prev
 {
+    left: -40px;
+}
+[dir='rtl'] .slick-prev
+{
+    right: -25px;
+    left: auto;
+}
+.slick-prev:before
+{
+    content: '←';
+}
+[dir='rtl'] .slick-prev:before
+{
+    content: '→';
+}
+
+.slick-next
+{
+    right: -40px;
+}
+
+[dir='rtl'] .slick-next
+{
+    right: auto;
     left: -25px;
+}
+.slick-next:before
+{
+    content: '→';
+}
+[dir='rtl'] .slick-next:before
+{
+    content: '←';
+}
+@media screen and (max-width:500px) and (min-width:360px){
+    .slick-prev
+{
+    left: -45px;
+}
+@media screen and (max-width:369px) and (min-width:0px){
+    .slick-prev
+{
+    left: -35px;
 }
 [dir='rtl'] .slick-prev
 {
@@ -99,6 +158,7 @@
 {
     right: -25px;
 }
+
 [dir='rtl'] .slick-next
 {
     right: auto;
@@ -111,6 +171,7 @@
 [dir='rtl'] .slick-next:before
 {
     content: '←';
+}
 }
 
 /* Dots */

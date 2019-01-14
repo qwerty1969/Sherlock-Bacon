@@ -191,3 +191,42 @@ else {
 </body>
 
 </html>
+
+
+
+
+
+         <main class="abc">
+             <div class="main-text">
+                    <span class="comfort">Комфортне місце</br>для тебе і твоєї</br>компанії</span>
+                        <h4>Приходьте до нас</h4>
+             </div>
+<div class="main-slider">
+<div class="slider">
+        <div class="photo"></div>
+        <div class="photo1"></div>
+        <div class="photo2"></div>
+      </div>
+                                </div>
+         </main>
+         <main class="abcd">
+                <div class="contact-container">
+                        <div class="contact-text">
+                            <h2 class="box">Contacts</h2>
+                            <p class="box">Hire me</p>
+                        </div>
+                        <div class="contact-inf">
+                            <h1 id="con">Location</h1>
+                            <p class="uk">Ukraine, Ternopil</p>
+                        </div>
+                        <div class="contact-inf">
+                            <h1 id="con1">Phone</h1>
+                            <p class="uk1">+380966777008</p>
+                        </div>
+                        <div class="contact-inf">
+                            <h1 id="con2">Street</h1>
+                            <p class="uk2">Yuliush Slovatskiy,</p>
+                        </div>
+                    </div>
+        </div>
+         </main>
